@@ -23,7 +23,7 @@ def pokemon(query):
 		query_d = int(query)
 		return "The pokemon with id "+str(query)+ " is " + str(data['name']) 
 	except ValueError as vr:
-		return str(query)+ " has id " + str(data['name'])
+		return str(query)+ " has id " + str(data['id'])
 	pass
 
 if __name__ == '__main__':
